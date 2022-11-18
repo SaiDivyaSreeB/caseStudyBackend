@@ -1,0 +1,66 @@
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        cors-Configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200/"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+#      default-filters:
+#      #        #Remove All the sensitive request headers (Cookie, Set-Cookie & Authorization) while passing request to downstream services
+#              - RemoveRequestHeader=Cookie
+#              - RemoveRequestHeader=Set-Cookie
+#              - RemoveRequestHeader=Authorization
+#
+#
+
+#
+#spring:
+#  cloud:
+#    gateway:
+#      globalcors:
+#        cors-configurations:
+#          '[/**]':
+#            allowedOrigins: "*"
+#            allowedHeaders: "*"
+#            allowedMethods: "*"
+#            exposedHeaders: "*"
+#              - GET
+#              - POST
+#              - DELETE
+#              - PUT
+
+#spring:
+#  cloud:
+#    gateway:
+#      default-filters:
+#        #Remove All the sensitive request headers (Cookie, Set-Cookie & Authorization) while passing request to downstream services
+#        - RemoveRequestHeader=Cookie
+#        - RemoveRequestHeader=Set-Cookie
+#        - RemoveRequestHeader=Authorization
+
+
+
+#spring:
+#  cloud:
+#    gateway:
+#      default-filters:
+#        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials, RETAIN_UNIQUE
+#        - RemoveRequestHeader=Authorization
+#      globalcors:
+#        cors-Configurations:
+#          '[/**]':
+#            allowedOrigins: "http://localhost:4200"
+#            allowedHeaders: "*"
+#            allowedMethods: "*"
+#            #      default-filters:
+#            #      #        #Remove All the sensitive request headers (Cookie, Set-Cookie & Authorization) while passing request to downstream services
+#            #              - RemoveRequestHeader=Cookie
+#            #              - RemoveRequestHeader=Set-Cookie
+#            #              - RemoveRequestHeader=Authorization
+#            #

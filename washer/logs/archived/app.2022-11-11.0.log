@@ -1,0 +1,23 @@
+2022-11-11 02:12:47,624 INFO com.cw.washer.WasherApplication [main] Starting WasherApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 2052 (C:\ProjectCarWash\washer\target\classes started by win10 in C:\ProjectCarWash\washer)
+2022-11-11 02:12:47,631 DEBUG com.cw.washer.WasherApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-11 02:12:47,632 INFO com.cw.washer.WasherApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-11 02:12:51,125 DEBUG com.cw.washer.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-11 02:12:54,194 INFO com.cw.washer.WasherApplication [main] Started WasherApplication in 7.313 seconds (JVM running for 8.002)
+2022-11-11 02:13:36,094 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-1] login endpoint accessed 
+2022-11-11 02:13:39,046 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] pendingOrders end point is accessed
+2022-11-11 02:15:12,881 INFO com.cw.washer.WasherApplication [main] Starting WasherApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 18188 (C:\ProjectCarWash\washer\target\classes started by win10 in C:\ProjectCarWash\washer)
+2022-11-11 02:15:12,884 DEBUG com.cw.washer.WasherApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-11 02:15:12,885 INFO com.cw.washer.WasherApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-11 02:15:16,616 DEBUG com.cw.washer.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-11 02:15:19,571 INFO com.cw.washer.WasherApplication [main] Started WasherApplication in 7.371 seconds (JVM running for 8.142)
+2022-11-11 02:16:30,724 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-1] login endpoint accessed 
+2022-11-11 02:16:33,483 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] pendingOrders end point is accessed
+2022-11-11 02:18:08,891 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] getUnassiedOrders end point is accessed
+2022-11-11 02:20:12,029 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-6] pendingOrders end point is accessed
+2022-11-11 02:32:49,073 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-10] login endpoint accessed 
+2022-11-11 02:33:04,153 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-1] login endpoint accessed 
+2022-11-11 12:10:20,793 INFO com.cw.washer.WasherApplication [main] Starting WasherApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 20132 (C:\ProjectCarWash\washer\target\classes started by win10 in C:\ProjectCarWash\washer)
+2022-11-11 12:10:20,797 DEBUG com.cw.washer.WasherApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-11 12:10:20,798 INFO com.cw.washer.WasherApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-11 12:10:29,935 DEBUG com.cw.washer.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-11 12:10:36,891 INFO com.cw.washer.WasherApplication [main] Started WasherApplication in 17.149 seconds (JVM running for 18.844)

@@ -1,0 +1,4 @@
+2022-11-10 20:26:04,314 INFO com.cw.order.OrderApplication [main] Starting OrderApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 17340 (C:\ProjectCarWash\order\target\classes started by win10 in C:\ProjectCarWash\order)
+2022-11-10 20:26:04,319 DEBUG com.cw.order.OrderApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-10 20:26:04,320 INFO com.cw.order.OrderApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-10 20:26:16,198 INFO com.cw.order.OrderApplication [main] Started OrderApplication in 12.879 seconds (JVM running for 14.045)

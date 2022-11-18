@@ -1,0 +1,39 @@
+2022-11-12 00:43:02,396 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-7] login endpoint accessed 
+2022-11-12 00:43:02,931 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-4] login endpoint accessed 
+2022-11-12 00:43:03,916 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-1] login endpoint accessed 
+2022-11-12 00:43:04,593 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-5] login endpoint accessed 
+2022-11-12 00:43:05,895 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-10] getUnassiedOrders end point is accessed
+2022-11-12 00:43:22,398 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-9] getUnassiedOrders end point is accessed
+2022-11-12 00:43:24,149 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-8] getUnassiedOrders end point is accessed
+2022-11-12 00:45:01,566 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] getUnassiedOrders end point is accessed
+2022-11-12 00:45:05,493 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-6] getUnassiedOrders end point is accessed
+2022-11-12 00:45:06,660 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-1] getUnassiedOrders end point is accessed
+2022-11-12 00:45:07,774 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-7] getUnassiedOrders end point is accessed
+2022-11-12 00:45:09,051 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] getUnassiedOrders end point is accessed
+2022-11-12 00:45:21,984 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-5] getUnassiedOrders end point is accessed
+2022-11-12 01:00:26,769 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-10] login endpoint accessed 
+2022-11-12 01:00:28,385 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-9] getUnassiedOrders end point is accessed
+2022-11-12 02:14:45,895 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-8] login endpoint accessed 
+2022-11-12 02:14:46,737 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] getUnassiedOrders end point is accessed
+2022-11-12 02:15:16,007 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] getUnassiedOrders end point is accessed
+2022-11-12 02:15:17,831 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-6] getUnassiedOrders end point is accessed
+2022-11-12 02:15:51,104 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-1] getUnassiedOrders end point is accessed
+2022-11-12 02:16:16,850 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-7] getUnassiedOrders end point is accessed
+2022-11-12 02:16:20,340 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] getUnassiedOrders end point is accessed
+2022-11-12 02:16:21,676 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-5] getUnassiedOrders end point is accessed
+2022-11-12 02:18:57,100 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-9] getUnassiedOrders end point is accessed
+2022-11-12 02:19:15,349 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-8] getUnassiedOrders end point is accessed
+2022-11-12 02:19:28,613 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] getUnassiedOrders end point is accessed
+2022-11-12 02:19:33,626 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] getUnassiedOrders end point is accessed
+2022-11-12 02:22:47,392 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-1] login endpoint accessed 
+2022-11-12 02:22:48,346 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-7] getUnassiedOrders end point is accessed
+2022-11-12 02:22:50,288 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] getUnassiedOrders end point is accessed
+2022-11-12 02:22:51,895 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-5] getUnassiedOrders end point is accessed
+2022-11-12 02:29:15,678 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-9] getUnassiedOrders end point is accessed
+2022-11-12 02:30:14,254 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-8] getUnassiedOrders end point is accessed
+2022-11-12 02:30:42,867 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] getUnassiedOrders end point is accessed
+2022-11-12 02:31:00,275 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] getUnassiedOrders end point is accessed
+2022-11-12 02:31:39,912 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-6] getUnassiedOrders end point is accessed
+2022-11-12 02:32:59,785 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-7] getUnassiedOrders end point is accessed
+2022-11-12 02:33:00,914 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] getUnassiedOrders end point is accessed
+2022-11-12 02:36:18,986 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-10] login endpoint accessed 

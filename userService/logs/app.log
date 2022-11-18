@@ -1,0 +1,32 @@
+2022-11-18 12:42:08,383 INFO com.cw.userService.UserServiceApplication [main] Starting UserServiceApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 10084 (C:\ProjectCarWash\userService\target\classes started by win10 in C:\ProjectCarWash\userService)
+2022-11-18 12:42:08,392 DEBUG com.cw.userService.UserServiceApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-18 12:42:08,392 INFO com.cw.userService.UserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-18 12:42:19,879 DEBUG com.cw.userService.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-18 12:42:24,641 INFO com.cw.userService.UserServiceApplication [main] Started UserServiceApplication in 17.236 seconds (JVM running for 18.635)
+2022-11-18 12:48:29,886 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-1] get all ratings end point accessed
+2022-11-18 12:49:10,624 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-2] get all ratings end point accessed
+2022-11-18 12:49:31,528 INFO com.cw.userService.controllers.AuthenticateController [http-nio-8098-exec-3] login end point accessed
+2022-11-18 12:49:34,073 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-4] see washpacks end point accessed
+2022-11-18 12:49:50,681 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-5] get all ratings end point accessed
+2022-11-18 12:50:10,160 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-6] see washpacks end point accessed
+2022-11-18 12:50:13,861 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-7] see washpacks end point accessed
+2022-11-18 12:50:18,138 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-8] see washpacks end point accessed
+2022-11-18 12:50:56,406 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-10] add order accessed
+2022-11-18 12:52:33,490 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-1] addRating end point accessed
+2022-11-18 12:52:39,605 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-2] get all ratings end point accessed
+2022-11-18 12:52:50,404 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-3] see washpacks end point accessed
+2022-11-18 12:53:07,382 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-4] cancel order accessed
+2022-11-18 12:53:45,277 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-5] see washpacks end point accessed
+2022-11-18 12:53:50,175 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-6] get all ratings end point accessed
+2022-11-18 12:53:55,034 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-7] get all ratings end point accessed
+2022-11-18 12:59:02,774 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-10] get all ratings end point accessed
+2022-11-18 13:00:08,005 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-1] get all ratings end point accessed
+2022-11-18 13:00:23,375 INFO com.cw.userService.controllers.AuthenticateController [http-nio-8098-exec-2] login end point accessed
+2022-11-18 13:00:34,584 INFO com.cw.userService.controllers.AuthenticateController [http-nio-8098-exec-3] login end point accessed
+2022-11-18 13:00:35,864 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-4] see washpacks end point accessed
+2022-11-18 13:04:48,058 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-6] get all ratings end point accessed
+2022-11-18 13:07:29,460 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-8] get all ratings end point accessed
+2022-11-18 13:07:43,517 INFO com.cw.userService.controllers.AuthenticateController [http-nio-8098-exec-10] login end point accessed
+2022-11-18 13:07:44,891 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-9] see washpacks end point accessed
+2022-11-18 13:11:19,312 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-2] see washpacks end point accessed
+2022-11-18 13:11:33,451 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-3] get all ratings end point accessed

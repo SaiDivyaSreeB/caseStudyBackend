@@ -1,0 +1,29 @@
+2022-11-15 16:09:03,021 INFO com.cw.washer.WasherApplication [main] Starting WasherApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 14052 (C:\ProjectCarWash\washer\target\classes started by win10 in C:\ProjectCarWash\washer)
+2022-11-15 16:09:03,032 DEBUG com.cw.washer.WasherApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-15 16:09:03,034 INFO com.cw.washer.WasherApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 16:09:06,890 DEBUG com.cw.washer.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-15 16:09:10,219 INFO com.cw.washer.WasherApplication [main] Started WasherApplication in 8.13 seconds (JVM running for 9.044)
+2022-11-15 17:16:37,852 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-1] login endpoint accessed 
+2022-11-15 17:16:39,454 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] getUnassiedOrders end point is accessed
+2022-11-15 17:16:42,980 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] getUnassiedOrders end point is accessed
+2022-11-15 17:17:13,584 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] updateProfile end point is accessed
+2022-11-15 17:30:20,536 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-6] updateProfile end point is accessed
+2022-11-15 17:33:29,302 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-8] updateProfile end point is accessed
+2022-11-15 17:38:39,840 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-10] login endpoint accessed 
+2022-11-15 17:38:41,029 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-1] getUnassiedOrders end point is accessed
+2022-11-15 17:39:12,143 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] updateProfile end point is accessed
+2022-11-15 17:45:44,871 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-4] login endpoint accessed 
+2022-11-15 17:45:50,319 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-5] login endpoint accessed 
+2022-11-15 17:45:53,249 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-6] login endpoint accessed 
+2022-11-15 17:46:19,464 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-7] getUnassiedOrders end point is accessed
+2022-11-15 17:51:13,597 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-7] login endpoint accessed 
+2022-11-15 17:51:15,034 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-6] getUnassiedOrders end point is accessed
+2022-11-15 17:51:46,017 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-5] updateProfile end point is accessed
+2022-11-15 17:54:00,220 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-9] updateProfile end point is accessed
+2022-11-15 17:56:23,102 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-1] updateProfile end point is accessed
+2022-11-15 18:02:53,878 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] updateProfile end point is accessed
+2022-11-15 18:03:56,986 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-7] updateProfile end point is accessed
+2022-11-15 18:04:28,378 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-6] login endpoint accessed 
+2022-11-15 18:04:29,682 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-5] getUnassiedOrders end point is accessed
+2022-11-15 18:04:59,410 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-8] updateProfile end point is accessed
+2022-11-15 18:08:24,579 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-10] updateProfile end point is accessed

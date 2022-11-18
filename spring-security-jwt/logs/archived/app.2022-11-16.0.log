@@ -1,0 +1,58 @@
+2022-11-16 00:23:23,098 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Starting SpringSecurityJwtApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 6200 (C:\ProjectCarWash\spring-security-jwt\target\classes started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 00:23:23,107 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 00:23:23,109 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 00:23:27,419 DEBUG com.cw.springsecurityjwt.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-16 00:23:30,267 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Started SpringSecurityJwtApplication in 8.396 seconds (JVM running for 14.611)
+2022-11-16 00:28:24,524 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Starting SpringSecurityJwtApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 15920 (C:\ProjectCarWash\spring-security-jwt\target\classes started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 00:28:24,527 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 00:28:24,529 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 00:28:30,071 DEBUG com.cw.springsecurityjwt.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-16 00:28:32,825 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Started SpringSecurityJwtApplication in 9.362 seconds (JVM running for 10.495)
+2022-11-16 01:27:06,411 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 5748 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:27:06,411 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:27:06,412 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:27:11,962 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.889 seconds (JVM running for 7.156)
+2022-11-16 01:27:21,630 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 16356 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:27:21,631 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:27:21,631 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:27:26,948 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.659 seconds (JVM running for 6.795)
+2022-11-16 01:27:39,770 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 1944 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:27:39,770 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:27:39,770 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:27:45,068 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.618 seconds (JVM running for 6.707)
+2022-11-16 01:32:27,097 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 18340 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:32:27,097 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:32:27,098 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:32:32,020 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.269 seconds (JVM running for 6.319)
+2022-11-16 01:34:04,590 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 4628 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:34:04,591 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:34:04,591 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:34:10,259 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 6.116 seconds (JVM running for 7.575)
+2022-11-16 01:34:16,445 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 21180 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:34:16,445 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:34:16,446 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:34:21,823 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.695 seconds (JVM running for 7.053)
+2022-11-16 01:35:29,148 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 18972 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:35:29,149 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:35:29,149 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:35:34,822 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 6.002 seconds (JVM running for 6.991)
+2022-11-16 01:35:55,934 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 16768 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:35:55,935 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:35:55,935 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:36:01,593 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.974 seconds (JVM running for 7.042)
+2022-11-16 01:36:15,352 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 22252 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:36:15,352 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:36:15,352 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:36:20,449 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.424 seconds (JVM running for 6.432)
+2022-11-16 01:36:31,943 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 7904 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:36:31,943 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:36:31,943 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:36:37,048 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.477 seconds (JVM running for 6.542)
+2022-11-16 01:37:09,036 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 19408 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:37:09,036 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:37:09,036 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:37:14,267 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.564 seconds (JVM running for 6.607)
+2022-11-16 01:37:21,106 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Starting SpringSecurityJwtApplicationTests using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 2040 (started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2022-11-16 01:37:21,107 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-16 01:37:21,107 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 01:37:26,158 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplicationTests [main] Started SpringSecurityJwtApplicationTests in 5.383 seconds (JVM running for 6.437)
