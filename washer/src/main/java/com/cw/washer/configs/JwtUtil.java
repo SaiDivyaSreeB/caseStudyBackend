@@ -1,13 +1,9 @@
 package com.cw.washer.configs;
 
-//import com.cw.springsecurityjwt.models.Roles;
-//import com.cw.springsecurityjwt.services.CustomUserDetailsService;
-
 import com.cw.washer.models.Roles;
 import com.cw.washer.services.CustomUserDetailsService;
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,12 +17,13 @@ import java.util.Set;
 
 @Component
 public class JwtUtil {
-    @Value("${security.jwt.token.secret-key:secret}")
+//    @Value("${security.jwt.token.secret-key:secret}")
     private String secretKey = "secret";
-    @Value("${security.jwt.token.expire-length:3600000}")
+//    @Value("${security.jwt.token.expire-length:3600000}")
     private long validityInMilliseconds = 3600000; //1 hr
     @Autowired
     private CustomUserDetailsService userDetailsService;
+    //to create the token
     public String createToken(String username, Set<Roles> set){
         Claims claims = Jwts.claims().setSubject(username);
         claims.put("roles",set);
@@ -39,7 +36,9 @@ public class JwtUtil {
                 .signWith(SignatureAlgorithm.HS256, secretKey)
                 .compact();
     }
+    //returns authentication token
     public Authentication getAuthentication(String token){
+        System.out.println("get authentication");
         UserDetails userDetails = this.userDetailsService.loadUserByUsername(getUsername(token));
         return new UsernamePasswordAuthenticationToken(userDetails,"", userDetails.getAuthorities());
     }
@@ -47,6 +46,7 @@ public class JwtUtil {
     private String getUsername(String token) {
         return Jwts.parser().setSigningKey(secretKey).parseClaimsJws(token).getBody().getSubject();
     }
+    //to resolve the token without 'Bearer'
     public String resolveToken(HttpServletRequest req){
         String bearerToken = req.getHeader("Authorization");
         if(bearerToken != null && bearerToken.startsWith("Bearer ")){
@@ -67,6 +67,7 @@ public class JwtUtil {
             throw new JwtException("Expired or invalid JWT token");
         }
     }
+    //executes after DI
   @PostConstruct
     protected void init(){
         secretKey = Base64.getEncoder().encodeToString(secretKey.getBytes());

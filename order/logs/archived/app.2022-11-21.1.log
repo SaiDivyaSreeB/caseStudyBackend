@@ -1,0 +1,8 @@
+2022-11-21 18:28:59,494 INFO com.cw.order.controller.orderController [http-nio-8097-exec-6] assign washer end point accessed
+2022-11-21 18:29:04,157 INFO com.cw.order.controller.orderController [http-nio-8097-exec-8] assign washer end point accessed
+2022-11-21 18:29:13,419 INFO com.cw.order.controller.orderController [http-nio-8097-exec-10] reject order end point accessed
+2022-11-21 18:29:22,435 INFO com.cw.order.controller.orderController [http-nio-8097-exec-1] update status end point accessed
+2022-11-21 18:30:56,661 INFO com.cw.order.controller.orderController [http-nio-8097-exec-2] find unassigned orders end point accessed
+2022-11-21 18:31:06,625 INFO com.cw.order.controller.orderController [http-nio-8097-exec-3] assign washer end point accessed
+2022-11-21 18:31:10,069 INFO com.cw.order.controller.orderController [http-nio-8097-exec-4] assign washer end point accessed
+2022-11-21 18:31:15,996 INFO com.cw.order.controller.orderController [http-nio-8097-exec-7] find unassigned orders end point accessed

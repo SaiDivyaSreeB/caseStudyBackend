@@ -1,0 +1,15 @@
+2022-11-21 18:30:04,717 INFO com.cw.springsecurityjwt.controllers.AuthenticateController [http-nio-8101-exec-3] login end point accessed
+2022-11-21 18:30:06,303 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-4] find all washpacks end point accessed
+2022-11-21 18:30:22,624 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-5] add washpack end point accessed
+2022-11-21 18:30:26,849 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-6] find all washpacks end point accessed
+2022-11-21 18:30:35,279 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-7] update washpack by id end point accessed
+2022-11-21 18:30:41,344 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-8] delete washpack by id end point accessed
+2022-11-21 18:30:56,406 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-10] find unassigned end point accessed
+2022-11-21 18:31:06,619 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-2] assign washer to order end point accessed
+2022-11-21 18:31:10,065 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-3] assign washer to order end point accessed
+2022-11-21 18:31:15,993 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-4] find unassigned end point accessed
+2022-11-21 18:31:38,342 INFO com.cw.springsecurityjwt.controllers.AuthenticateController [http-nio-8101-exec-5] register end point accessed
+2022-11-21 18:31:47,190 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-6] find all washpacks end point accessed
+2022-11-21 18:32:04,640 INFO com.cw.springsecurityjwt.controllers.AuthenticateController [http-nio-8101-exec-7] login end point accessed
+2022-11-21 18:32:06,963 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-8] find all washpacks end point accessed
+2022-11-21 18:32:20,202 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-10] find all washpacks end point accessed

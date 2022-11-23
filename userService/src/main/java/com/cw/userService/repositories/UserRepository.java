@@ -10,7 +10,4 @@ import java.util.Set;
 
 public interface UserRepository extends MongoRepository<Users, String> {
     Users findByEmail(String email);
-
-
-    List<Users> findByRolesIn(Set<Roles> roles);
 }

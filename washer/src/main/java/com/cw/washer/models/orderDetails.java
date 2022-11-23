@@ -2,16 +2,19 @@ package com.cw.washer.models;
 
 //import io.swagger.annotations.ApiModel;
 //import io.swagger.annotations.ApiModelProperty;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.constraints.NotEmpty;
 @Document(collection="orders")
-//@ApiModel(description = "details of order")
+@ApiModel(description = "details of order")
 public class orderDetails {
     @Id
     String orderId;
-    //@ApiModelProperty(notes = "the person's email")
+    @ApiModelProperty(notes = "the person's email")
     @NotEmpty(message = "Email cant be empty")
     String userEmailId;
     @NotEmpty(message = "Washer Name can't be empty")

@@ -1,5 +1,4 @@
 package com.cw.userService.configs;
-
 import com.cw.userService.services.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -25,10 +24,12 @@ public class SecurityConfigurer  {
     private CustomUserDetailsService userDetailsService;
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
+    //it make use of CustomUserDetailsService to verify the user
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception{
         return authenticationConfiguration.getAuthenticationManager();
     }
+    //executes after Request filter
     @Bean
     protected SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         http.cors();
@@ -38,7 +39,6 @@ public class SecurityConfigurer  {
                 .antMatchers("/users/**").hasAnyAuthority("USER")//Authority("USER")
                 .anyRequest().authenticated()
                 .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-                //.and().csrf().disable().exceptionHandling().authenticationEntryPoint(unauthorisedEntryPoint());
         http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
     }

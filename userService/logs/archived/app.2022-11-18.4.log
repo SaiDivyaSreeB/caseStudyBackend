@@ -1,0 +1,15 @@
+2022-11-18 23:02:25,110 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-5] add order accessed
+2022-11-18 23:03:23,859 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-1] get all ratings end point accessed
+2022-11-18 23:04:08,185 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-3] addRating end point accessed
+2022-11-18 23:04:32,209 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-2] get all ratings end point accessed
+2022-11-18 23:04:54,194 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-6] get all ratings end point accessed
+2022-11-18 23:08:12,966 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-8] get all ratings end point accessed
+2022-11-18 23:08:18,477 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-9] see washpacks end point accessed
+2022-11-18 23:08:36,995 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-10] addRating end point accessed
+2022-11-18 23:10:33,015 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-5] addRating end point accessed
+2022-11-18 23:11:12,071 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-1] see washpacks end point accessed
+2022-11-18 23:11:16,093 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-3] get all ratings end point accessed
+2022-11-18 23:11:48,423 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-2] cancel order accessed
+2022-11-18 23:15:55,378 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-7] get all ratings end point accessed
+2022-11-18 23:17:38,381 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-9] get all ratings end point accessed
+2022-11-18 23:57:59,902 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-4] get all ratings end point accessed

@@ -30,7 +30,7 @@ public class AuthenticateController {
    UserRepository ur;
    @Autowired
    private CustomUserDetailsService userService;
-
+    //to login
     @PostMapping("/login")
     public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest) throws Exception {
     //logging
@@ -49,12 +49,12 @@ public class AuthenticateController {
 
      }
      //logging
-        System.out.println(authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username,authenticationRequest.getPassword())));
         String token = jwtUtil.createToken(username,this.ur.findByEmail(username).getRoles());
         Users ExistingUser = userService.findUserByEmail(username);
         return new ResponseEntity<>(userService.updateTokenById(ExistingUser,token), HttpStatus.OK);
 
     }
+    // for user registration
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody Users user){
         //logging

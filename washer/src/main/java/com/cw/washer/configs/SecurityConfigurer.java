@@ -29,6 +29,7 @@ public class SecurityConfigurer  {
     private CustomUserDetailsService userDetailsService;
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
+    //it make use of CustomUserDetailsService to verify the user
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception{
         return authenticationConfiguration.getAuthenticationManager();
@@ -37,12 +38,13 @@ public class SecurityConfigurer  {
     public AuthenticationEntryPoint unauthorisedEntryPoint(){
         return(request, response, authException)->response.sendError(HttpServletResponse.SC_UNAUTHORIZED,"Unauthorized");
     }
+    //executes after Request filter
     @Bean
     protected SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         http.cors();
         http.httpBasic().disable().csrf().disable().sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().authorizeRequests()
-                .antMatchers("/authWasher/login","/manage/**","/authWasher/register").permitAll()
+                .antMatchers("/authWasher/login","/manage/**","/authWasher/register","/washers/getImage/**").permitAll()
                 .antMatchers("/swagger-resources/**","/v2/api-docs","/swagger-ui/**").permitAll()
                 .antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                 .antMatchers("/washers/**").hasAnyAuthority("WASHER")//Authority("WASHER")

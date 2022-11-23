@@ -1,5 +1,0 @@
-2022-11-16 00:28:21,303 INFO com.cw.userService.UserServiceApplication [main] Starting UserServiceApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 17060 (C:\ProjectCarWash\userService\target\classes started by win10 in C:\ProjectCarWash\userService)
-2022-11-16 00:28:21,312 DEBUG com.cw.userService.UserServiceApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
-2022-11-16 00:28:21,313 INFO com.cw.userService.UserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-11-16 00:28:26,229 DEBUG com.cw.userService.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
-2022-11-16 00:28:30,513 INFO com.cw.userService.UserServiceApplication [main] Started UserServiceApplication in 10.242 seconds (JVM running for 11.339)

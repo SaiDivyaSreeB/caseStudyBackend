@@ -23,17 +23,14 @@ public class serviceUser {
     private RestTemplate restTemplate;
     String url = "http://ORDER-SERVICE/orders";
     String url1="http://ADMIN-SERVICE/admins";
-    //String url4="http://SECURITY-JWT/manage";
+
     public orderDetails updateOrder(String orderId,orderDetails order) {
         HttpHeaders header = new HttpHeaders();
         header.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         HttpEntity<orderDetails> entity = new HttpEntity<>(order, header);
         return restTemplate.exchange(url + "/update/"+orderId, HttpMethod.PUT, entity, orderDetails.class).getBody();
     }
-//    public orderDetails addOrder(orderDetails order){
-//        HttpEntity<orderDetails> entity = new HttpEntity<>(order);
-//        return restTemplate.postForObject(url + "/add",order,orderDetails.class);
-//    }
+
 public String addOrder(orderDetails order){
     HttpEntity<orderDetails> entity = new HttpEntity<>(order);
     return restTemplate.postForObject(url + "/add",order,String.class);

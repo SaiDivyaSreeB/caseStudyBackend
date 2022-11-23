@@ -1,6 +1,7 @@
 package com.cw.washer.models;
 
 //import nonapi.io.github.classgraph.json.Id;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.IndexDirection;
 import org.springframework.data.mongodb.core.index.Indexed;

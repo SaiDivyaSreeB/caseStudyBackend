@@ -24,10 +24,12 @@ public class SecurityConfigurer  {
     private CustomUserDetailsService userDetailsService;
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
+    //it make use of CustomUserDetailsService to verify the user
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception{
         return authenticationConfiguration.getAuthenticationManager();
     }
+    //executes after Request filter
     @Bean
     protected SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         http.cors();

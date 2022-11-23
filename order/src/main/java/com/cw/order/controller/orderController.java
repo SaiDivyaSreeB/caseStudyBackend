@@ -94,11 +94,11 @@ public class orderController {
     public ResponseEntity<orderDetails> updateOrder(@PathVariable String orderId, @RequestBody orderDetails orderDetails) {
         logger.info("update order end point accessed");
         orderDetails existingOrder = or.findById(orderId).orElseThrow(() -> new APIRequestException("Order with ID -> " + orderDetails.getOrderId() + " not found,update failed"));
-        //OrderId won't be updated for @putmapping
+        //OrderId won't be updated
         //WasherName can't be updated by user
+        //Status can't be updated by the user
         existingOrder.setWasherName(orderDetails.getWasherName());
         existingOrder.setWashpack(orderDetails.getWashpack());
-        //Status can't be updated by the user
         existingOrder.setCars(orderDetails.getCars());
         existingOrder.setUserEmailId(orderDetails.getUserEmailId());
         existingOrder.setAreapincode(orderDetails.getAreapincode());
@@ -130,12 +130,10 @@ public class orderController {
     public /*orderDetails*/ResponseEntity<orderDetails>
     assignWasher(@PathVariable String orderId,@RequestBody String name) {
         logger.info("assign washer end point accessed");
-        //boolean doesOrderExists=or.existsById(od.getOrderId());
         orderDetails existingOrder = or.findById(orderId).orElseThrow(() -> new APIRequestException("order with id " + orderId+ "notfound,status update failed"));
         if (/*doesOrderExists &&*/ existingOrder.getWasherName().contains("NA")) {
             existingOrder.setWasherName(name);
             existingOrder.setStatus("Pending");
-            //return or.save(existingOrder);
             or.save(existingOrder);
             return ResponseEntity.ok(existingOrder);
         } else {

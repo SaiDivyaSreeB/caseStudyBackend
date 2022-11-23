@@ -34,11 +34,6 @@ public class adminController {
         logger.info("find one washpack by id end point accessed");
         return wps.findById(id);
     }
-//    @GetMapping("/wpByName/{name}")
-//    public washPack findWpByName(@PathVariable String name){
-//        logger.info("find washpack by name end point accessed");
-//        return wps.findByName(name);
-//    }
     //get washpack cost
     @GetMapping("/costByName/{name}" )
     public Integer costByName(@PathVariable String name){
@@ -77,17 +72,5 @@ public class adminController {
         logger.info("find unassigned end point accessed");
         return as.getUnassignedOrders();
     }
-//    @GetMapping("/oneWasher/{name}")
-//        public Users getOneWasher(@PathVariable String name) {
-//        return as.getOneWasher(name);
-//    }
-//    @GetMapping("/washerRating/{name}")
-//    public WasherRatings washerSpecificRatings(@PathVariable String name){
-//        return as.washerSpecificRatings(name);
-//    }
-//    @PutMapping("/updateProfile/{id}")
-//    public Users update(@PathVariable String id, @RequestBody Users user){
-//        return as.updateProfile(id,user);
-//    }
-    //@GetMapping("/viewProfile/{id}")
+
 }

@@ -35,7 +35,7 @@ public class AuthenticateController {
    UserRepository ur;
    @Autowired
    private CustomUserDetailsService userService;
-    //authentication end point
+    //to login
     @PostMapping("/login")
     public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest) throws Exception {
      //logging username to console
@@ -51,16 +51,14 @@ public class AuthenticateController {
      catch (BadCredentialsException e) {
       throw new Exception("Invalid username or password");
      }
-     //logging
-        System.out.println(authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username,authenticationRequest.getPassword())));
-    // System.out.println(this.ur.findByEmail(username).getRoles());
+
      String token = jwtUtil.createToken(username,this.ur.findByEmail(username).getRoles());
      //method defined in user repository
    Users ExistingUser = userService.findUserByEmail(username);
-   //  System.out.println("username");
      return new ResponseEntity<>(userService.updateTokenById(ExistingUser,token), HttpStatus.OK);
-       // return ResponseEntity.ok(new AuthenticationResponse(token));
+     // return ResponseEntity.ok(new AuthenticationResponse(token));
     }
+    // for user registration
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody Users user){
         logger.info("register end point accessed");

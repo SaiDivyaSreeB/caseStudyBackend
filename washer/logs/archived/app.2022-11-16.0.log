@@ -1,5 +1,0 @@
-2022-11-16 00:28:02,531 INFO com.cw.washer.WasherApplication [main] Starting WasherApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 14000 (C:\ProjectCarWash\washer\target\classes started by win10 in C:\ProjectCarWash\washer)
-2022-11-16 00:28:02,542 DEBUG com.cw.washer.WasherApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
-2022-11-16 00:28:02,543 INFO com.cw.washer.WasherApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-11-16 00:28:07,585 DEBUG com.cw.washer.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
-2022-11-16 00:28:14,937 INFO com.cw.washer.WasherApplication [main] Started WasherApplication in 13.193 seconds (JVM running for 14.419)

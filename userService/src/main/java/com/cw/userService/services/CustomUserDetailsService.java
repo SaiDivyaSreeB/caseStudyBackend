@@ -15,8 +15,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-import java.util.stream.Collectors;
-
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
     @Autowired
@@ -39,26 +37,14 @@ public class CustomUserDetailsService implements UserDetailsService {
     //After registering save user by his role
     public Users saveUser(Users user){
         //Bcrypt is a one way strong Hashing function
-        //calling a bean in configuration file(WebSecurityConfig)
+
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         user.setEnabled(true);
         System.out.println(user.getRoles());
-//        List<Roles> admin = user.getRoles().stream().filter(x -> x.getRole().contains("ADMIN")).collect(Collectors.toList());
-//        List<Roles> washer = user.getRoles().stream().filter(x -> x.getRole().contains("WASHER")).collect(Collectors.toList());
-//        if(washer.size()==1)
-//        {
-//            Roles userRole = roleRepository.findByRole("WASHER");
-//            user.setRoles((new HashSet<>(Arrays.asList(userRole))));
-//        }
-//        else if (admin.size()==1) {
-//            Roles userRole = roleRepository.findByRole("ADMIN");
-//            user.setRoles((new HashSet<>(Arrays.asList(userRole))));
-//        }
-//        else {
-            Roles userRole = roleRepository.findByRole("USER");
-            user.setRoles((new HashSet<>(Arrays.asList(userRole))));
-     //   }
-        //logging the saved user in console
+
+        Roles userRole = roleRepository.findByRole("USER");
+        user.setRoles((new HashSet<>(Arrays.asList(userRole))));
+
         System.out.println(user);
         return userRepository.save(user);
     }

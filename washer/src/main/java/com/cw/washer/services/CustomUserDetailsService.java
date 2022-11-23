@@ -21,8 +21,6 @@ public class CustomUserDetailsService implements UserDetailsService {
     private UserRepository userRepository;
     @Autowired
     private RoleRepository roleRepository;
-   // @Autowired
-    //private AuthService as;
     @Autowired
     private PasswordEncoder bCryptPasswordEncoder;
     // to find user by mailId
@@ -64,6 +62,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     }
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        System.out.println("loadUserByUsername");
         Users user = userRepository.findByEmail(email);
         if(user!=null){
             List<GrantedAuthority> authorities = getUserAuthority(user.getRoles());

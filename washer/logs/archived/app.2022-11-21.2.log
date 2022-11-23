@@ -1,0 +1,4 @@
+2022-11-21 18:29:13,392 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-10] rejectOrder end point is accessed
+2022-11-21 18:29:22,432 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] updateStatusoftheOrder end point is accessed
+2022-11-21 18:29:42,729 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-6] updateProfile end point is accessed
+2022-11-21 18:29:46,977 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-5] updateProfile end point is accessed
