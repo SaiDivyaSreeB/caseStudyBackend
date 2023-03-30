@@ -50,7 +50,8 @@ public class AuthenticateController {
      }
      //if the authentication fails(to handle that exception)
      catch (BadCredentialsException e) {
-      throw new Exception("Invalid username or password");
+      //throw new Exception("Invalid username or password");
+         return new ResponseEntity<>("Invalid username or password",HttpStatus.FORBIDDEN);
      }
      //logging
        // System.out.println(authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username,authenticationRequest.getPassword())));

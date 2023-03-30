@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/discoveryServer/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewayApi/pom.xml" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/razorpayment/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/userService/pom.xml" />
+        <option value="$PROJECT_DIR$/washer/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK" />
 </project>

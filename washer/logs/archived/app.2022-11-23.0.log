@@ -1,0 +1,15 @@
+2022-11-23 10:33:30,560 INFO com.cw.washer.WasherApplication [main] Starting WasherApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 11868 (C:\ProjectCarWash\washer\target\classes started by win10 in C:\ProjectCarWash\washer)
+2022-11-23 10:33:30,601 DEBUG com.cw.washer.WasherApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-23 10:33:30,604 INFO com.cw.washer.WasherApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-23 10:33:38,313 DEBUG com.cw.washer.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2022-11-23 10:33:44,556 INFO com.cw.washer.WasherApplication [main] Started WasherApplication in 15.867 seconds (JVM running for 17.971)
+2022-11-23 10:41:44,226 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-2] login endpoint accessed 
+2022-11-23 10:41:46,706 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-1] pendingOrders end point is accessed
+2022-11-23 10:42:12,729 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] updateProfile end point is accessed
+2022-11-23 10:42:18,711 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-4] getUnassiedOrders end point is accessed
+2022-11-23 16:25:45,463 INFO com.cw.washer.controller.AuthenticateController [http-nio-8094-exec-10] login endpoint accessed 
+2022-11-23 16:25:45,939 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-8] pendingOrders end point is accessed
+2022-11-23 16:25:52,010 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-9] getUnassiedOrders end point is accessed
+2022-11-23 16:26:16,488 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-2] assignSelf end point is accessed
+2022-11-23 16:26:21,286 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-1] pendingOrders end point is accessed
+2022-11-23 16:26:47,930 INFO com.cw.washer.controller.washerController [http-nio-8094-exec-3] updateStatusoftheOrder end point is accessed

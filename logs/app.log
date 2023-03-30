@@ -1,0 +1,21 @@
+2023-03-30 13:08:22,157 INFO com.cw.order.OrderApplication [main] Starting OrderApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 14960 (C:\ProjectCarWash\order\target\classes started by win10 in C:\ProjectCarWash)
+2023-03-30 13:08:22,158 DEBUG com.cw.order.OrderApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-03-30 13:08:22,159 INFO com.cw.order.OrderApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-30 13:08:28,057 INFO com.cw.order.OrderApplication [main] Started OrderApplication in 6.611 seconds (JVM running for 7.539)
+2023-03-30 13:08:56,851 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Starting SpringSecurityJwtApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 2692 (C:\ProjectCarWash\spring-security-jwt\target\classes started by win10 in C:\ProjectCarWash)
+2023-03-30 13:08:56,862 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-03-30 13:08:56,863 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-30 13:09:02,115 DEBUG com.cw.springsecurityjwt.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2023-03-30 13:09:06,328 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Started SpringSecurityJwtApplication in 10.275 seconds (JVM running for 11.124)
+2023-03-30 13:09:19,784 INFO com.cw.userService.UserServiceApplication [main] Starting UserServiceApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 19320 (C:\ProjectCarWash\userService\target\classes started by win10 in C:\ProjectCarWash)
+2023-03-30 13:09:19,786 DEBUG com.cw.userService.UserServiceApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-03-30 13:09:19,787 INFO com.cw.userService.UserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-30 13:09:24,291 DEBUG com.cw.userService.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2023-03-30 13:09:27,562 INFO com.cw.userService.UserServiceApplication [main] Started UserServiceApplication in 8.588 seconds (JVM running for 9.49)
+2023-03-30 13:09:31,187 INFO com.cw.washer.WasherApplication [main] Starting WasherApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 8884 (C:\ProjectCarWash\washer\target\classes started by win10 in C:\ProjectCarWash)
+2023-03-30 13:09:31,190 DEBUG com.cw.washer.WasherApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-03-30 13:09:31,191 INFO com.cw.washer.WasherApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-30 13:09:35,267 DEBUG com.cw.washer.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2023-03-30 13:09:38,008 INFO com.cw.washer.WasherApplication [main] Started WasherApplication in 7.623 seconds (JVM running for 8.582)
+2023-03-30 13:11:31,395 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-1] get all ratings end point accessed
+2023-03-30 13:11:31,647 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find all washpacks end point accessed

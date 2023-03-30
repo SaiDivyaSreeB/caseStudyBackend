@@ -1,29 +1,26 @@
-2022-11-23 10:32:49,162 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Starting SpringSecurityJwtApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 9612 (C:\ProjectCarWash\spring-security-jwt\target\classes started by win10 in C:\ProjectCarWash\spring-security-jwt)
-2022-11-23 10:32:49,206 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
-2022-11-23 10:32:49,208 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-11-23 10:32:55,094 DEBUG com.cw.springsecurityjwt.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
-2022-11-23 10:33:00,185 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Started SpringSecurityJwtApplication in 12.719 seconds (JVM running for 17.197)
-2022-11-23 10:38:42,862 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find all washpacks end point accessed
-2022-11-23 10:41:13,008 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-5] find all washpacks end point accessed
-2022-11-23 10:42:24,421 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-2] find all washpacks end point accessed
-2022-11-23 10:42:46,825 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-3] find all washpacks end point accessed
-2022-11-23 10:42:50,325 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-7] find all washpacks end point accessed
-2022-11-23 10:42:50,337 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-6] find one washpack by id end point accessed
-2022-11-23 10:43:07,171 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-10] find all washpacks end point accessed
-2022-11-23 10:43:57,274 INFO com.cw.springsecurityjwt.controllers.AuthenticateController [http-nio-8101-exec-5] login end point accessed
-2022-11-23 10:43:58,293 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-8] find all washpacks end point accessed
-2022-11-23 10:44:12,024 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-9] find unassigned end point accessed
-2022-11-23 10:44:13,921 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-2] find all washpacks end point accessed
-2022-11-23 10:44:19,054 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-3] find all washpacks end point accessed
-2022-11-23 10:44:23,746 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-6] find one washpack by id end point accessed
-2022-11-23 10:54:04,415 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-7] find all washpacks end point accessed
-2022-11-23 10:54:13,710 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-10] find one washpack by id end point accessed
-2022-11-23 10:54:13,795 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find all washpacks end point accessed
-2022-11-23 10:54:29,840 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-4] find cost by washpack name end point accessed
-2022-11-23 10:55:11,157 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-5] find one washpack by id end point accessed
-2022-11-23 10:55:11,207 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-8] find all washpacks end point accessed
-2022-11-23 10:55:30,272 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-9] find cost by washpack name end point accessed
-2022-11-23 10:55:52,097 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-2] find cost by washpack name end point accessed
-2022-11-23 12:20:18,309 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-7] find all washpacks end point accessed
-2022-11-23 12:21:30,497 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find all washpacks end point accessed
-2022-11-23 12:21:42,519 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-4] find all washpacks end point accessed
+2023-03-21 11:19:49,678 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Starting SpringSecurityJwtApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 5180 (C:\ProjectCarWash\spring-security-jwt\target\classes started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2023-03-21 11:19:49,686 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-03-21 11:19:49,687 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:20:02,414 DEBUG com.cw.springsecurityjwt.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2023-03-21 11:20:10,784 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Started SpringSecurityJwtApplication in 22.597 seconds (JVM running for 24.997)
+2023-03-21 12:28:22,960 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find all washpacks end point accessed
+2023-03-21 12:35:13,713 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Starting SpringSecurityJwtApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 12448 (C:\ProjectCarWash\spring-security-jwt\target\classes started by win10 in C:\ProjectCarWash\spring-security-jwt)
+2023-03-21 12:35:13,716 DEBUG com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-03-21 12:35:13,716 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-21 12:35:15,986 DEBUG com.cw.springsecurityjwt.configs.JwtRequestFilter [main] Filter 'jwtRequestFilter' configured for use
+2023-03-21 12:35:18,113 INFO com.cw.springsecurityjwt.SpringSecurityJwtApplication [main] Started SpringSecurityJwtApplication in 4.898 seconds (JVM running for 5.452)
+2023-03-21 12:36:33,272 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find all washpacks end point accessed
+2023-03-21 12:36:48,365 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-3] find all washpacks end point accessed
+2023-03-21 12:36:48,865 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-2] find one washpack by id end point accessed
+2023-03-21 12:37:07,988 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-4] find one washpack by id end point accessed
+2023-03-21 12:37:07,996 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-5] find all washpacks end point accessed
+2023-03-21 12:37:16,792 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-6] find all washpacks end point accessed
+2023-03-21 12:37:19,247 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-7] find one washpack by id end point accessed
+2023-03-21 12:37:19,247 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-8] find all washpacks end point accessed
+2023-03-21 12:37:53,182 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-9] find cost by washpack name end point accessed
+2023-03-21 12:38:21,997 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find all washpacks end point accessed
+2023-03-21 12:39:50,412 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-5] find all washpacks end point accessed
+2023-03-21 12:40:20,768 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-6] find all washpacks end point accessed
+2023-03-21 12:40:28,875 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-7] find all washpacks end point accessed
+2023-03-21 12:40:36,510 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-8] find all washpacks end point accessed
+2023-03-21 12:40:46,746 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-9] find all washpacks end point accessed

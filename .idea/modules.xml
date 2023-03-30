@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ProjectCarWash.iml" filepath="$PROJECT_DIR$/.idea/ProjectCarWash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discoveryServer/discoveryServer.iml" filepath="$PROJECT_DIR$/discoveryServer/discoveryServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gatewayApi/gatewayApi.iml" filepath="$PROJECT_DIR$/gatewayApi/gatewayApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/razorpayment/razorpayment.iml" filepath="$PROJECT_DIR$/razorpayment/razorpayment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-jwt/spring-security-jwt.iml" filepath="$PROJECT_DIR$/spring-security-jwt/spring-security-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userService/userService.iml" filepath="$PROJECT_DIR$/userService/userService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/washer/washer.iml" filepath="$PROJECT_DIR$/washer/washer.iml" />
     </modules>
   </component>
 </project>

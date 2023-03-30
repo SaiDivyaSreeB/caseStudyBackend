@@ -1,0 +1,4 @@
+2022-11-23 16:17:54,291 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-1] find one washpack by id end point accessed
+2022-11-23 16:18:13,011 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-5] find cost by washpack name end point accessed
+2022-11-23 16:25:28,825 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-6] find all washpacks end point accessed
+2022-11-23 16:53:33,353 INFO com.cw.springsecurityjwt.controllers.adminController [http-nio-8101-exec-10] find all washpacks end point accessed

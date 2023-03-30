@@ -1,13 +1,11 @@
 package com.cw.order.models;
 
-import com.cw.order.models.Car;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 
 @Document(collection="orders")
 @ApiModel(description = "details of order")

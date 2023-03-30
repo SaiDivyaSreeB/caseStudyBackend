@@ -1,0 +1,4 @@
+2022-11-23 16:21:41,583 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-5] get all ratings end point accessed
+2022-11-23 16:25:28,825 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-7] get all ratings end point accessed
+2022-11-23 16:26:53,979 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-9] get all ratings end point accessed
+2022-11-23 16:53:33,343 INFO com.cw.userService.controllers.userServiceController [http-nio-8098-exec-1] get all ratings end point accessed

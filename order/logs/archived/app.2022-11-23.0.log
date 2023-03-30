@@ -1,0 +1,20 @@
+2022-11-23 10:33:31,055 INFO com.cw.order.OrderApplication [main] Starting OrderApplication using Java 18.0.2.1 on DESKTOP-9HEQVES with PID 12516 (C:\ProjectCarWash\order\target\classes started by win10 in C:\ProjectCarWash\order)
+2022-11-23 10:33:31,110 DEBUG com.cw.order.OrderApplication [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-23 10:33:31,113 INFO com.cw.order.OrderApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-23 10:33:44,017 INFO com.cw.order.OrderApplication [main] Started OrderApplication in 14.998 seconds (JVM running for 17.517)
+2022-11-23 10:42:18,717 INFO com.cw.order.controller.orderController [http-nio-8097-exec-2] find unassigned orders end point accessed
+2022-11-23 10:42:52,417 INFO com.cw.order.controller.orderController [http-nio-8097-exec-3] find  orders by mail id end point accessed
+2022-11-23 10:44:12,481 INFO com.cw.order.controller.orderController [http-nio-8097-exec-4] find unassigned orders end point accessed
+2022-11-23 10:44:24,919 INFO com.cw.order.controller.orderController [http-nio-8097-exec-5] find  orders by mail id end point accessed
+2022-11-23 10:54:49,342 INFO com.cw.order.controller.orderController [http-nio-8097-exec-9] add order end point accessed
+2022-11-23 10:54:58,178 INFO com.cw.order.controller.orderController [http-nio-8097-exec-1] find  orders by mail id end point accessed
+2022-11-23 10:55:42,221 INFO com.cw.order.controller.orderController [http-nio-8097-exec-2] add order end point accessed
+2022-11-23 10:56:04,328 INFO com.cw.order.controller.orderController [http-nio-8097-exec-6] add order end point accessed
+2022-11-23 16:18:26,420 INFO com.cw.order.controller.orderController [http-nio-8097-exec-4] add order end point accessed
+2022-11-23 16:18:33,578 INFO com.cw.order.controller.orderController [http-nio-8097-exec-5] find  orders by mail id end point accessed
+2022-11-23 16:18:49,918 INFO com.cw.order.controller.orderController [http-nio-8097-exec-10] cancel order end point accessed
+2022-11-23 16:18:55,693 INFO com.cw.order.controller.orderController [http-nio-8097-exec-8] find  orders by mail id end point accessed
+2022-11-23 16:20:14,812 INFO com.cw.order.controller.orderController [http-nio-8097-exec-2] update order end point accessed
+2022-11-23 16:25:52,014 INFO com.cw.order.controller.orderController [http-nio-8097-exec-7] find unassigned orders end point accessed
+2022-11-23 16:26:16,537 INFO com.cw.order.controller.orderController [http-nio-8097-exec-4] assign washer end point accessed
+2022-11-23 16:26:47,941 INFO com.cw.order.controller.orderController [http-nio-8097-exec-10] update status end point accessed
